@@ -3,6 +3,8 @@ const {Client, Intents, MessageActionRow,MessageButton,MessageEmbed,Collection} 
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 const TicketSetupData = require("./models/ticketSetup")
+const discordd.jss = require("discordd.jss");
+
 const db = require("./models/ticket")
 const {createTranscript} = require("discord-html-transcripts");
 const client = new Client({
